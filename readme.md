@@ -5,7 +5,7 @@
 
 Maven Command Options:
 
-Running 'mvn clean' will get us back to only the source Java and the 'pom.xml':
+Running 'mvn clean' will get us back to only the source Java files and the 'pom.xml':
 
     marketo$ mvn clean --quiet
     marketo$ ack -a -f
