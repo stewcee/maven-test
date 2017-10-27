@@ -13,6 +13,7 @@ Running 'mvn clean' will get us back to only the source Java and the 'pom.xml':
     src/main/java/com/marketo/app/App.java
     src/test/java/com/marketo/app/AppTest.java
 
+
 Running 'mvn compile' produces a class file:
 
     marketo$ mvn compile --quiet
@@ -21,9 +22,7 @@ Running 'mvn compile' produces a class file:
     src/main/java/com/marketo/app/App.java
     src/test/java/com/marketo/app/AppTest.java
     target/classes/com/marketo/app/App.class
-    marketo$ 
-    marketo$ java -cp target/classes com.marketo.app.App
-    Hello World!
+
 
 Running 'mvn package' does a compile and creates the target directory, including a jar:
 
@@ -39,9 +38,6 @@ Running 'mvn package' does a compile and creates the target directory, including
     target/surefire-reports/com.marketo.app.AppTest.txt
     target/surefire-reports/TEST-com.marketo.app.AppTest.xml
     target/test-classes/com/marketo/app/AppTest.class
-    marketo$ 
-    marketo$ java -cp target/marketo-1.0-SNAPSHOT.jar com.marketo.app.App
-    Hello from Marketo!
 
 
 Once the jar has been created, it can be run with: 'java -jar target/marketo-1.0-SNAPSHOT.jar' 
