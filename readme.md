@@ -39,4 +39,7 @@ Running 'mvn package' does a compile and creates the target directory, including
     target/test-classes/com/marketo/app/AppTest.class
 
 
-Once the jar has been created, it can be run with: 'java -jar target/marketo-1.0-SNAPSHOT.jar' 
+Once the jar has been created, it can be run with: 
+
+    marketo$ java -jar target/marketo-1.0-SNAPSHOT.jar
+    Hello from Marketo!
