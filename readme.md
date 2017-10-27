@@ -26,8 +26,7 @@ Running 'mvn compile' produces a class file:
 
 Running 'mvn package' does a compile and creates the target directory, including a jar:
 
-    marketo$ mvn clean --quiet
-    marketo$ mvn package > /dev/null
+    marketo$ mvn package
     marketo$ ack -a -f
     pom.xml
     src/main/java/com/marketo/app/App.java
