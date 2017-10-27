@@ -20,6 +20,8 @@ src/test/java/com/marketo/app/AppTest.java
  
 
 
+
+
 Running 'mvn compile' produces a class file:
 
     marketo$ mvn compile --quiet
@@ -33,6 +35,8 @@ src/main/java/com/marketo/app/App.java
 src/test/java/com/marketo/app/AppTest.java
 
 target/classes/com/marketo/app/App.class
+
+
 
 
 
@@ -61,6 +65,8 @@ target/surefire-reports/com.marketo.app.AppTest.txt
 target/surefire-reports/TEST-com.marketo.app.AppTest.xml
 
 target/test-classes/com/marketo/app/AppTest.class
+
+
 
 
 
